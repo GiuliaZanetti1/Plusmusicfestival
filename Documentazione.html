@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.min.css" integrity="sha512-fJcFDOQo2+/Ke365m0NMCZt5uGYEWSxth3wg2i0dXu7A1jQfz9T4hdzz6nkzwmJdOdkcS8jmy2lWGaRXl+nFMQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="favicon.png"/>
+
+    <script src="https://kit.fontawesome.com/26c4219625.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="header">
+     <div class="logo">
+        <img src="img/Logo3.png" alt="">
+     </div>
+     <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Festival.html">Festival</a></li>
+        <li><a href="Come arrivare.html">Come arrivare</a></li>
+     </ul>
+     <div class="cta">
+        <a href="Biglietti.html" class="button">Biglietti</a>
+     </div>
+     <div class="hamburger"></div>
+     <span></span>
+     <span></span>
+     <span></span>
+    </div>
+    
+    <div class="hero hero--small">
+        <div class="hero__content">
+            <h1 class="big-text">Documentazione</h1>            
+        </div>
+        <video autoplay muted loop id="video-back">
+            <source src="videob.mp4" type="video/mp4">
+
+        </video>
+    </div>
+
+
+
+
+ <div class="content">
+    <h3 class="big-text">Abstract:</h3>
+    <p>Il sito PLUS MUSIC FESTIVAL si pone l’obiettivo di fare conoscere e promuovere il festival omonimo consentendone un'ampia visibilità tra i possibili fruitori (giovani 16-30 anni) messi in grado di apprendere e valutare le caratteristiche della manifestazione, i relativi contenuti e le peculiari caratteristiche e di indurre gli interlocutori a partecipare all’evento musicale. Il sito mira alla completezza dell'informazione sia sui contenuti della manifestazione, sia sull’aspetto logistico fornendo il link diretto per l’acquisto dei biglietti e le informazioni utili alla immediata pianificazione dell’accesso mediante precisa indicazione dei giorni dedicati e del luogo di svolgimento.
+    </p>
+
+
+    <h3 class="big-text">Project Management Plan:</h3>
+    <h3 class="normal-text">Benchmarking:</h3>
+    <p>OBIETTIVI:</p>
+    <p>L’obiettivo del sito è di dare visibilità al PLUS MUSIC FESTIVAL facendo conoscere l’evento musicale ai possibili fruitori, esponendone in maniera esaustiva le caratteristiche e i contenuti con un approccio coinvolgente finalizzato a farne emergere le tipicità e a suscitare interesse e desiderio di partecipazione negli interlocutori.</p>
+    <p>TARGET:</p>
+    <p>Il target è riferito a giovani amanti della musica aventi un’età tra i 16 e i 30 anni, appassionati di vari generi musicali, essendo l’offerta nelle varie serate di svolgimento diversificata e così ampiamente inclusiva.</p>
+    <p>COMPETITORS:</p>
+    <p>Numerosi sono i competitors da individuarsi in tutti i siti finalizzati a pubblicizzare festival, manifestazioni canore o in genere eventi musicali tra cui anche concerti di singoli artisti, molto rappresentati sul web in relazione ai numerosi eventi programmati, del tutto frequenti in Italia e all’estero soprattutto nel periodo estivo.<br>
+        Esaminando quelli che hanno più marcata somiglianza rispetto all’evento propagandato, anche sotto il profilo del target di riferimento e del luogo di ubicazione della manifestazione, si riscontra il sito dello Youth Festival riferito a un evento già da anni in svolgimento nella provincia di Modena, ma con caratteristiche di maggiore inclusività data la almeno parziale gratuità dell’offerta musicale e il sito del Nameless Music Festival di Como che è più miratamente incentrato sulla musica elettronica.<br>
+        Il sito del Nameless Music Festival è caratterizzato da una articolazione di più ampio respiro giustificata dalla vocazione internazionale della manifestazione e il ricorso a tecnologie avanzate di accesso e pagamento quali il bracciale elettronico che impongono la presenza di più pagine dedicate alle modalità di accesso anche dall’estero e alla spiegazione delle tecnologie impiegate.<br>
+        Il sito dello Youth Festival ha una struttura più semplice e leggera, ma risulta particolarmente coinvolgente con immagini che rimandano alle precedenti edizioni e testimoniano il clima di grande entusiasmo e partecipazione dei giovani presenti. Lo Youth ha poi pagine dedicate a esperienze per tutti, tra cui tornei di sport quali calcetto e volley splash.
+        </p>
+    <h3 class="normal-text">Struttura e layout:</h3>
+
+    <div class="image-gallery">
+        <div class="image-container">
+        <h2>Struttura ad Albero:</h2>
+          <img src="img/Struttura Albero.PNG" alt="Image 1">
+          <p class="image-description">Nella figura è riprodotta la rappresentazione grafica dell’architettura del sito. La Home è suddivisa in header, main e footer. Da header si accede al menu che è a sua volta suddiviso in “Home”, “Festival”, “Come arrivare”, “Biglietti”. La pagina “Festival” dà accesso diretto al programma e alla lineup dell’evento, mentre la pagina “Come arrivare” da accesso alla mappa. La pagina “Biglietti” è in collegamento con i link di acquisto ai biglietti per le singole giornate della manifestazione.
+            Nella pagina main sono contenute sezioni esplicative di singoli aspetti del festival quali: “Evento musicale”, “Come nasce”, “Oltre il festival” e “Artisti”. Nella sezione “Evento musicale” e “Artisti” è presente un bottone con un link alla pagina “Festival”. Infine, nel footer, si trova la documentazione e il link all’account Instagram.</p>
+        </div>
+
+    <div class="image-gallery">
+            <div class="image-container">
+            <h2>Wireframe:</h2>
+              <img src="img/wireframe home.PNG" alt="">
+            </div>
+
+    <div class="image-gallery">
+                <div class="image-container">
+                <h2>Wireframe "Menu"</h2>
+                  <img src="img/Wireframe menu.PNG" alt="">
+                </div>
+
+    <div class="image-gallery">
+                    <div class="image-container">
+                    <h2>Wireframe "Documentazione"</h2>
+                      <img src="img/Wireframe documentazione.PNG" alt="">
+                    </div>
+
+    <div class="image-gallery">
+                    <div class="image-container">
+                        <img src="img/Wireframe documentazione2.PNG" alt="Image 1">
+                    </div>
+                    
+                    
+
+                    
+
+
+
+
+
+
+
+
+
+
+
+        
+
+          
+         
+
+          
+
+          <h3 class="normal-text">Look and Feel:</h3>
+           <p>Le scelte grafiche fatte per la realizzazione del sito hanno privilegiato uno stile semplice ed elegante, composto da pochi elementi ben disposti per agevolare la fruizione delle informazioni da parte degli utenti.<br>
+        La font utilizzata per tutta la pagina web è: “Inter” che, grazie alla sua leggibilità e alle sue proporzioni equilibrate, risulta essere ottimale per un sito moderno relativo a un festival musicale. Nei titoli e nei paragrafi è stata alternata la font nelle colorazioni bianca e nera a seconda della necessità.  
+        La palette di colori impiegata, in armonia con le immagini scelte, è essenzialmente composta da tre diverse shade ricorrenti nell’intero sito: nero #000, viola-magenta #811d7a, bianco #fff.
+        Lo sfondo bianco del sito permette di mettere in risalto gli elementi inseriti rendendo la pagina ben organizzata e luminosa. 
+        </p>
+
+       
+    
+ </div>
+
+          <h3 class="normal-text">Linguaggi e strumenti:</h3>
+           <p>I linguaggi utilizzati sono:<br> HTML, CSS e JavaScript.<br>Gli strumenti utilizzati sono:<br>- Visual Studio Code, per la scrittura del codice;<br>
+    - Google Font, per la scelta della font;<br>
+    - Canva, Per la realizzazione del logo;<br>
+    - Lunapic, per eliminare lo sfondo intorno al logo;<br>
+    - Pexels, per le immagini e video senza copyright;<br>
+    - Colorspicker, per la scelta dei colori;<br>
+    - Developer.mozilla, per l’opacità del video presente nella hero in CSS;<br>
+    - Notability, per la realizzazione dello schema ad albero e dei wireframe;<br>
+    - Cdnjs, link per resettare le proprietà CSS;<br>
+    - Flickity, per lo slider;<br>
+    - ScrollReveal, per gli effetti di rivelazione degli elementi;<br>
+    - GoogleMaps, per l’inserimento della mappa;<br>
+    - Font Awesome, per l'icona di Instagram;<br>
+    - Github.com, per la pubblicazione del sito sul web;<br>
+    - Google Analytics, per il controllo e la valutazione dell'andamento del sito;<br>
+    -Font Awesome, per l'icona di Instagram;<br>- Instagram e WhatsApp, per la promozione del sito.</p>
+
+         <h3 class="big-text">Communication Strategy:</h3>
+         <h3 class="normal-text">Background:</h3>
+          <p>La scelta comunicativa è stata finalizzata alla realizzazione di un sito navigabile con modalità semplici e intuitive, in grado di fornire in un breve tempo di visita uno spaccato della manifestazione, di individuarne i profili musicali proposti nelle singole serate e gli artisti coinvolti, di evocare la location prescelta e di traghettare immagini idonee a sollecitare l’immaginario per immediatamente catapultare il visitatore nell’atmosfera giovane e attrattiva delle singole serate proposte. Si è inteso inoltre fornire tutte le informazioni logistiche per la pianificazione dell’esperienza e consentire un diretto accesso al sito utile per l’acquisto dei biglietti per facilitare il fruitore nella programmazione e realizzazione dell’acquisto. </p>
+         <h3 class="normal-text">Obiettivi comunicativi:</h3>
+          <p>Gli obiettivi comunicativi, in correlazione con le scelte sopra esplicitate, sono quelli di informare, attrarre e indurre all’acquisto il visitatore del sito e di creare tramite il passaparola una estesa visibilità sulla manifestazione attirando un cospicuo numero di giovani nelle serate programmate ed una connessa attesa rispetto all’evento.<br>
+    L’obiettivo è il raggiungimento di 100 visualizzazioni del sito.</p>
+         <h3 class="normal-text">Target audience e messaggio:</h3>
+           <p>Il target d’elezione è quello dei giovani dai 16 ai 30 anni, maggiori fruitori della tipologia di musica proposta,  per il quale i migliori mezzi comunicativi sono quelli legati ai social (Instagram, TikTok, Twitter, Facebook, WhatsApp), oltre a sponsorizzazioni sui social.<br> L’utente secondario è ogni appassionato di musica interessato ai generi proposti a prescindere dall’età.</p>
+         <h3 class="normal-text">Promozione:</h3>
+          <p>Intendo promuovere il sito web attraverso storie su Instagram e gruppi di WhatsApp</p>
+         <div class="image-gallery">
+         <div class="image-container">
+         <h2>Titolo:</h2>
+           <img src="" alt="Image 1">
+           <p class="image-description">Descrizione dell'immagine 1</p>
+          </div>
+         <h3 class="normal-text">Valutazione dei risultati:</h3>
+           <p></p>
+       <div class="image-gallery">
+    <div class="image-container">
+    <h2>Titolo:</h2>
+      <img src="" alt="Image 1">
+      <p class="image-description">Descrizione dell'immagine 1</p>
+    </div>
+   <h3 class="normal-text">Valutazione dei risultati:</h3>
+   <p></p>
+   <div class="container">    
+ 
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+    <footer class="footer">
+        <div class="grid">
+          
+           <div class="col reveal">
+               <h4 class="normal-text tw">Copyright © 2023 Giulia Zanetti</h4>
+               <p>Sito fittizio realizzato per un esame universitario</p> 
+           </div>
+        <div class="col reveal">
+           <a href="https://instagram.com/plusmusicfestival?igshid=NTc4MTIwNjQ2YQ==" target="_blank" rel="noopener noreferrer">
+               <i class="fa-brands fa-instagram fa-xl" style="color: #ffffff;"></i>
+               </a>
+               
+           </div>
+       
+           <div class="col reveal">
+               <h4 class="normal-text tw"><a href="Documentazione.html">Documentazione</a></h4>
+               
+           </div>
+           </div>
+        </div>
+       
+       </footer>
+
+
+
+
+    <!--Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.pkgd.min.js" integrity="sha512-achKCfKcYJg0u0J7UDJZbtrffUwtTLQMFSn28bDJ1Xl9DWkl/6VDT3LMfVTo09V51hmnjrrOTbtg4rEgg0QArA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+    $( document ).ready(function() {
+
+     /* Open Panel */
+     $( ".hamburger" ).on("click", function() {
+        $( ".menu" ).toggleClass("menu--open");
+     });
+
+    });
+</script>
+
+</body>
+</html>

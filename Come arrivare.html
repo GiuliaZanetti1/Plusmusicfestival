@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.min.css" integrity="sha512-fJcFDOQo2+/Ke365m0NMCZt5uGYEWSxth3wg2i0dXu7A1jQfz9T4hdzz6nkzwmJdOdkcS8jmy2lWGaRXl+nFMQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="favicon.png"/>
+
+    <script src="https://kit.fontawesome.com/26c4219625.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div class="header">
+     <div class="logo">
+        <img src="img/Logo3.png" alt="">
+     </div>
+     <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Festival.html">Festival</a></li>
+        <li><a href="Come arrivare.html">Come arrivare</a></li>
+     </ul>
+     <div class="cta">
+        <a href="Biglietti.html" class="button">Biglietti</a>
+     </div>
+     <div class="hamburger"></div>
+     <span></span>
+     <span></span>
+     <span></span>
+    </div>
+    
+    <div class="hero hero--small">
+        <div class="hero__content">
+            <h1 class="big-text">COME ARRIVARE</h1>            
+        </div>
+        <video autoplay muted loop id="video-back">
+            <source src="videob.mp4" type="video/mp4">
+
+        </video>
+    </div>
+
+
+
+
+
+<div class="content">
+    <h3 class="big-text">Mappa</h3>
+
+    <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2838.3721273792926!2d10.905076294512863!3d44.65074821331385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477fefa0c680ada7%3A0xaab2f5f1cb444f77!2sParco%20Enzo%20Ferrari!5e0!3m2!1sen!2sit!4v1683208139117!5m2!1sen!2sit" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      
+    <p>In automobile: dal casello di Modena nord, per la tangenziale uscita 15; dal casello di Modena sud, per la tangenziale uscita 24<br>
+        In treno: scendere alla stazione di Modena e prendere la linea 4 degli autobus o procedere a piedi verso via Emilia Ovest</p>
+
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+    <p></p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer">
+    <div class="grid">
+      
+       <div class="col reveal">
+           <h4 class="normal-text tw">Copyright © 2023 Giulia Zanetti</h4>
+           <p>Sito fittizio realizzato per un esame universitario</p> 
+       </div>
+    <div class="col reveal">
+       <a href="https://instagram.com/plusmusicfestival?igshid=NTc4MTIwNjQ2YQ==" target="_blank" rel="noopener noreferrer">
+           <i class="fa-brands fa-instagram fa-xl" style="color: #ffffff;"></i>
+           </a>
+           
+       </div>
+   
+       <div class="col reveal">
+           <h4 class="normal-text tw"><a href="Documentazione.html">Documentazione</a></h4>
+           
+       </div>
+       </div>
+    </div>
+   
+   </footer>
+
+
+
+
+    <!--Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.pkgd.min.js" integrity="sha512-achKCfKcYJg0u0J7UDJZbtrffUwtTLQMFSn28bDJ1Xl9DWkl/6VDT3LMfVTo09V51hmnjrrOTbtg4rEgg0QArA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script>
+    $( document ).ready(function() {
+
+     /* Open Panel */
+     $( ".hamburger" ).on("click", function() {
+        $( ".menu" ).toggleClass("menu--open");
+     });
+
+    });
+</script>
+
+</body>
+</html>
